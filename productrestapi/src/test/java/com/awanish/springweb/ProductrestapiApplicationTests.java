@@ -12,6 +12,7 @@ import com.awanish.springweb.entites.Products;
 @SpringBootTest
 class ProductrestapiApplicationTests {
 
+	//this method is used to get the product using Resttemplate clinet 
 	@Test
 	public void testGetProduct() {
 
@@ -22,7 +23,7 @@ class ProductrestapiApplicationTests {
 		assertEquals("IPHONE-14", responseProducts.getName());
 
 	}
-
+    //this method is used to creatTest Product using RestTemplate client
 	@Test
 	public void testCreateProduct() {
 		RestTemplate restTemplate = new RestTemplate();
@@ -37,7 +38,7 @@ class ProductrestapiApplicationTests {
 		assertNotNull("Samsung mobile", postForObject.getName());
 
 	}
-
+    //this method is used to update the product using resttemplate client
 	@Test
 	public void testUpdateProduct() {
 

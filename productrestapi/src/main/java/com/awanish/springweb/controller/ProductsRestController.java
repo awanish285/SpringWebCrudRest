@@ -14,38 +14,38 @@ import com.awanish.springweb.repositery.ProductsRepo;
 
 @RestController
 public class ProductsRestController {
-	
+
 	@Autowired
 	ProductsRepo productsRepo;
-	@RequestMapping(value="/products/",method=RequestMethod.GET)
-	public List<Products> getProducts()
-	{
+
+	// this method is used to get the all the product
+	@RequestMapping(value = "/products/", method = RequestMethod.GET)
+	public List<Products> getProducts() {
 		return productsRepo.findAll();
 	}
-	
-	@RequestMapping(value="/products/{id}",method=RequestMethod.GET)
-	public Products getProductbyId(@PathVariable("id") int id)
-	{
+
+	// this method is used to get the product by id
+	@RequestMapping(value = "/products/{id}", method = RequestMethod.GET)
+	public Products getProductbyId(@PathVariable("id") int id) {
 		return productsRepo.findById(id).get();
 	}
-	
-	@RequestMapping(value="/products/",method=RequestMethod.POST)
-	public Products createProduct(@RequestBody Products product)
-	{
-		 return productsRepo.save(product);
+
+	// this method is used to create the product
+	@RequestMapping(value = "/products/", method = RequestMethod.POST)
+	public Products createProduct(@RequestBody Products product) {
+		return productsRepo.save(product);
 	}
-	
-	@RequestMapping(value="/products/",method=RequestMethod.PUT)
-	public Products updateProduct(@RequestBody Products product)
-	{
-		 return productsRepo.save(product);
+
+	// this method is used to update the product
+	@RequestMapping(value = "/products/", method = RequestMethod.PUT)
+	public Products updateProduct(@RequestBody Products product) {
+		return productsRepo.save(product);
 	}
-	
-	@RequestMapping(value="/products/{id}",method=RequestMethod.DELETE)
-	public void deleteProductbyId(@PathVariable("id") int id)
-	{
-	        productsRepo.deleteById(id);
+
+	// this method is used to delete the product
+	@RequestMapping(value = "/products/{id}", method = RequestMethod.DELETE)
+	public void deleteProductbyId(@PathVariable("id") int id) {
+		productsRepo.deleteById(id);
 	}
-	
 
 }
