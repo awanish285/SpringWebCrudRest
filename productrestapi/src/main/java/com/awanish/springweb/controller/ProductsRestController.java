@@ -2,6 +2,8 @@ package com.awanish.springweb.controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -14,6 +16,8 @@ import com.awanish.springweb.repositery.ProductsRepo;
 
 @RestController
 public class ProductsRestController {
+	
+	private static final Logger logger=LoggerFactory.getLogger(ProductsRestController.class);
 
 	@Autowired
 	ProductsRepo productsRepo;
@@ -27,6 +31,7 @@ public class ProductsRestController {
 	// this method is used to get the product by id
 	@RequestMapping(value = "/products/{id}", method = RequestMethod.GET)
 	public Products getProductbyId(@PathVariable("id") int id) {
+		logger.info("finding product by Id: {} ",id);
 		return productsRepo.findById(id).get();
 	}
 
