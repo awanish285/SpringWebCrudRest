@@ -12,7 +12,7 @@ import com.awanish.springweb.entites.Products;
 
 @SpringBootTest
 class ProductrestapiApplicationTests {
-
+	
 	@Value("${productrestapi.services.url}")
 	private String baseURL;
 	//this method is used to get the product using Resttemplate clinet 
@@ -26,7 +26,7 @@ class ProductrestapiApplicationTests {
 		assertEquals("IPHONE-14", responseProducts.getName());
 
 	}
-    //this method is used to creatTest Product using RestTemplate client
+    //this method is used to create Product using RestTemplate client
 	@Test
 	public void testCreateProduct() {
 		RestTemplate restTemplate = new RestTemplate();
@@ -34,7 +34,7 @@ class ProductrestapiApplicationTests {
 		product.setName("Samsung mobile");
 		product.setDescription("Good");
 		product.setPrice(200);
-		Products postForObject = restTemplate.postForObject("http://localhost:8080/productrestapi/products/", product,
+		Products postForObject = restTemplate.postForObject(baseURL, product,
 				Products.class);
 		assertNotNull(postForObject);
 		assertNotNull(postForObject.getId());
