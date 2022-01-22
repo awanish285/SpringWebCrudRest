@@ -41,7 +41,20 @@ Logger: It provides a feature to view and update the logs level.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Spring Boot JPA is a Java specification for managing relational data in Java applications. 
+It allows us to access and persist data between Java object/ class and relational database. 
+JPA follows Object-Relation Mapping (ORM). It is a set of interfaces. 
+It also provides a runtime EntityManager API for processing queries and transactions on the objects against the database. It uses a platform-independent object-oriented query language JPQL (Java Persistent Query Language).
 
+In the context of persistence, it covers three areas:
+
+The Java Persistence API
+Object-Relational metadata
+The API itself, defined in the persistence package
+JPA is not a framework. 
+It defines a concept that can be implemented by any framework.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 #Tech
