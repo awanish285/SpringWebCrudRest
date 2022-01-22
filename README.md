@@ -55,15 +55,32 @@ JPA is not a framework.
 It defines a concept that can be implemented by any framework.
 
 
+JPA Implementations
+JPA is an open-source API. 
+There is various enterprises vendor such as Eclipse, RedHat, Oracle, etc. 
+that provides new products by adding the JPA in them. 
+There are some popular JPA implementations frameworks such as Hibernate, EclipseLink, DataNucleus, etc. 
+It is also known as Object-Relation Mapping (ORM) tool.
+
+
 
 JPA Features
 There are following features of JPA:
 
 1) It is a powerful repository and custom object-mapping abstraction.
-It supports for cross-store persistence. It means an entity can be partially stored in MySQL and Neo4j (Graph Database Management System).
 2) It dynamically generates queries from queries methods name.
 3) Possibility to integrate custom repository code.
 4) It is easy to integrate with Spring Framework with the custom namespace.
+
+
+
+Difference between JPA and Hibernate
+
+JPA: JPA is a Java specification that is used to access, manage, and persist data between Java object and relational database. 
+It is a standard approach for ORM.
+
+Hibernate: It is a lightweight, open-source ORM tool that is used to store Java objects in the relational database system. 
+It is a provider of JPA. It follows a common approach provided by JPA.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
