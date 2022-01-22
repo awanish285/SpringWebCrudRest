@@ -54,6 +54,17 @@ The API itself, defined in the persistence package
 JPA is not a framework. 
 It defines a concept that can be implemented by any framework.
 
+
+
+JPA Features
+There are following features of JPA:
+
+1) It is a powerful repository and custom object-mapping abstraction.
+It supports for cross-store persistence. It means an entity can be partially stored in MySQL and Neo4j (Graph Database Management System).
+2) It dynamically generates queries from queries methods name.
+3) Possibility to integrate custom repository code.
+4) It is easy to integrate with Spring Framework with the custom namespace.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
