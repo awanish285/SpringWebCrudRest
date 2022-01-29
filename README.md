@@ -112,7 +112,10 @@ Cons of JDBC:
 5) Query is DBMS specific
 
 =====================================================================================================================================================================================================================================
+What is ORM?
+ORM stands for Object-Relational Mapping (ORM) is a programming technique for converting data between relational databases and object oriented programming languages such as Java, C#, etc.
 
+======================================================================================================================================================================================================
 #Tech
 java,spring-data-jpa,RestTemplate,junitTest
 
