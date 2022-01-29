@@ -124,6 +124,18 @@ Advantages:
 5	Entities based on business concepts rather than database structure.
 6	Transaction management and automatic key generation.
 7	Fast development of application.
+
+
+Java ORM Frameworks
+There are several persistent frameworks and ORM options in Java. A persistent framework is an ORM service that stores and retrieves objects into a relational database.
+
+Enterprise JavaBeans Entity Beans
+Java Data Objects
+Castor
+TopLink
+Spring DAO
+Hibernate
+And many more
 ======================================================================================================================================================================================================
 #Tech
 java,spring-data-jpa,RestTemplate,junitTest
