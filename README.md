@@ -83,7 +83,23 @@ Hibernate: It is a lightweight, open-source ORM tool that is used to store Java 
 It is a provider of JPA. It follows a common approach provided by JPA.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What is JDBC?
+JDBC stands for Java Database Connectivity. It provides a set of Java API for accessing the relational databases from Java program. These Java APIs enables Java programs to execute SQL statements and interact with any SQL compliant database.
 
+JDBC provides a flexible architecture to write a database independent application that can run on different platforms and interact with different DBMS without any modification.
+
+
+Pros of JDBC:
+
+1) Clean and simple SQL processing
+
+2) Good performance with large data
+
+3) Very good for small applications
+
+4) Simple syntax so easy to learn
+
+=====================================================================================================================================================================================================================================
 
 #Tech
 java,spring-data-jpa,RestTemplate,junitTest
