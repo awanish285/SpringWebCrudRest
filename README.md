@@ -99,6 +99,18 @@ Pros of JDBC:
 
 4) Simple syntax so easy to learn
 
+Cons of JDBC:
+
+1) Complex if it is used in large projects
+
+2) Large programming overhead
+
+3) No encapsulation
+
+4) Hard to implement MVC concept
+
+5) Query is DBMS specific
+
 =====================================================================================================================================================================================================================================
 
 #Tech
