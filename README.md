@@ -178,3 +178,23 @@ It offers several plugins for working with an embedded and in-memory database su
 Spring Boot comes with the concept of starter in pom.xml file that internally takes care of downloading the dependencies JARs based on Spring Boot Requirement.
 
 =========================================================================================================================================================================
+
+Spring Boot
+	
+1) Spring Boot is a module of Spring for packaging the Spring-based application with sensible defaults.	
+2) It provides default configurations to build Spring-powered framework.	
+3) There is no need to build configuration manually.	
+4) There is no requirement for a deployment descriptor.	
+5) It avoids boilerplate code and wraps dependencies together in a single unit.	
+6) It reduces development time and increases productivity.	
+
+Spring MVC
+
+1) Spring MVC is a model view controller-based web framework under the Spring framework.
+2) It provides ready to use features for building a web application.
+3) It requires build configuration manually.
+4) A Deployment descriptor is required.
+5) It specifies each dependency separately.
+6) It takes more time to achieve the same.
+
+============================================================================================================================================================================
