@@ -74,17 +74,21 @@ There are following features of JPA:
 
 
 
-Difference between JPA and Hibernate
+#Difference between JPA and Hibernate
 
-JPA: JPA is a Java specification that is used to access, manage, and persist data between Java object and relational database. 
-It is a standard approach for ORM.
+#JPA: 
+1) JPA is a Java specification that is used to access, manage, and persist data between Java object and relational database. 
+2) It is a standard approach for ORM.
 
-Hibernate: It is a lightweight, open-source ORM tool that is used to store Java objects in the relational database system. 
-It is a provider of JPA. It follows a common approach provided by JPA.
+Hibernate: 
+1) It is a lightweight, open-source ORM tool that is used to store Java objects in the relational database system. 
+2) It is a provider of JPA. It follows a common approach provided by JPA.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What is JDBC?
-JDBC stands for Java Database Connectivity. It provides a set of Java API for accessing the relational databases from Java program. These Java APIs enables Java programs to execute SQL statements and interact with any SQL compliant database.
+#What is JDBC?
+1) JDBC stands for Java Database Connectivity. 
+2) It provides a set of Java API for accessing the relational databases from Java program. 
+3) These Java APIs enables Java programs to execute SQL statements and interact with any SQL compliant database.
 
 JDBC provides a flexible architecture to write a database independent application that can run on different platforms and interact with different DBMS without any modification.
 
