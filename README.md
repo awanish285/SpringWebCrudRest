@@ -126,16 +126,16 @@ Advantages:
 7	Fast development of application.
 
 
-Java ORM Frameworks
+#Java ORM Frameworks
 There are several persistent frameworks and ORM options in Java. A persistent framework is an ORM service that stores and retrieves objects into a relational database.
 
-Enterprise JavaBeans Entity Beans
-Java Data Objects
-Castor
-TopLink
-Spring DAO
-Hibernate
-And many more
+1) Enterprise JavaBeans Entity Beans
+2) Java Data Objects
+3) Castor
+4) TopLink
+5) Spring DAO
+6) Hibernate
+7) And many more
 ======================================================================================================================================================================================================
 #Tech
 java,spring-data-jpa,RestTemplate,junitTest
@@ -155,31 +155,31 @@ Git
 
 ===================================================================================================================================================
 
-Spring Vs Spring Boot
+# Spring Vs Spring Boot
 
 
-Spring Framework is a widely used Java EE framework for building applications.	
-It aims to simplify Java EE development that makes developers more productive.	
-The primary feature of the Spring Framework is dependency injection.	
-It helps to make things simpler by allowing us to develop loosely coupled applications.	
-The developer writes a lot of code (boilerplate code) to do the minimal task.	
-To test the Spring project, we need to set up the sever explicitly.	
-It does not provide support for an in-memory database.	
-Developers manually define dependencies for the Spring project in pom.xml.	
+1) Spring Framework is a widely used Java EE framework for building applications.	
+2) It aims to simplify Java EE development that makes developers more productive.	
+3) The primary feature of the Spring Framework is dependency injection.	
+4) It helps to make things simpler by allowing us to develop loosely coupled applications.	
+5) The developer writes a lot of code (boilerplate code) to do the minimal task.	
+6) To test the Spring project, we need to set up the sever explicitly.	
+7) It does not provide support for an in-memory database.	
+8) Developers manually define dependencies for the Spring project in pom.xml.	
 
 
-Spring Boot Framework is widely used to develop REST APIs.
-It aims to shorten the code length and provide the easiest way to develop Web Applications.
-The primary feature of Spring Boot is Autoconfiguration. It automatically configures the classes based on the requirement.
-It helps to create a stand-alone application with less configuration.
-It reduces boilerplate code.
-Spring Boot offers embedded server such as Jetty and Tomcat, etc.
-It offers several plugins for working with an embedded and in-memory database such as H2.
-Spring Boot comes with the concept of starter in pom.xml file that internally takes care of downloading the dependencies JARs based on Spring Boot Requirement.
+1) Spring Boot Framework is widely used to develop REST APIs.
+2) It aims to shorten the code length and provide the easiest way to develop Web Applications.
+3) The primary feature of Spring Boot is Autoconfiguration. It automatically configures the classes based on the requirement.
+4) It helps to create a stand-alone application with less configuration.
+5) It reduces boilerplate code.
+6) Spring Boot offers embedded server such as Jetty and Tomcat, etc.
+7) It offers several plugins for working with an embedded and in-memory database such as H2.
+8) Spring Boot comes with the concept of starter in pom.xml file that internally takes care of downloading the dependencies JARs based on Spring Boot Requirement.
 
 =========================================================================================================================================================================
 
-Spring Boot
+#Spring Boot
 	
 1) Spring Boot is a module of Spring for packaging the Spring-based application with sensible defaults.	
 2) It provides default configurations to build Spring-powered framework.	
@@ -188,7 +188,7 @@ Spring Boot
 5) It avoids boilerplate code and wraps dependencies together in a single unit.	
 6) It reduces development time and increases productivity.	
 
-Spring MVC
+#Spring MVC
 
 1) Spring MVC is a model view controller-based web framework under the Spring framework.
 2) It provides ready to use features for building a web application.
