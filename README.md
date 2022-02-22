@@ -19,11 +19,11 @@ This is simple — properties files
 We make properties files for each environment and set the profile in the application accordingly, so it will pick the respective properties file		
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-Enabling Actuator:
+#Enabling Actuator:
 
-To enable Spring Boot actuator endpoints to your Spring Boot application, 
-we need to add the Spring Boot Starter actuator dependency in our build configuration file.
-Maven users can add the below dependency in your pom.xml file.
+1) To enable Spring Boot actuator endpoints to your Spring Boot application, 
+2) we need to add the Spring Boot Starter actuator dependency in our build configuration file.
+3) Maven users can add the below dependency in your pom.xml file.
 
 <dependency>
    <groupId>org.springframework.boot</groupId>
@@ -66,7 +66,7 @@ It defines a concept that can be implemented by any framework.
 
 
 
-JPA Features
+#JPA Features
 There are following features of JPA:
 
 1) It is a powerful repository and custom object-mapping abstraction.
@@ -95,7 +95,7 @@ Hibernate:
 JDBC provides a flexible architecture to write a database independent application that can run on different platforms and interact with different DBMS without any modification.
 
 
-Pros of JDBC:
+#Pros of JDBC:
 
 1) Clean and simple SQL processing
 
@@ -105,7 +105,7 @@ Pros of JDBC:
 
 4) Simple syntax so easy to learn
 
-Cons of JDBC:
+#Cons of JDBC:
 
 1) Complex if it is used in large projects
 
@@ -121,7 +121,7 @@ Cons of JDBC:
 What is ORM?
 ORM stands for Object-Relational Mapping (ORM) is a programming technique for converting data between relational databases and object oriented programming languages such as Java, C#, etc.
 
-Advantages:
+#Advantages:
 
 1	Let’s business code access objects rather than DB tables.
 2	Hides details of SQL queries from OO logic.
