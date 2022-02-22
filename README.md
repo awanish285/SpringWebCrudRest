@@ -31,13 +31,15 @@ Maven users can add the below dependency in your pom.xml file.
 </dependency>
 
 
-Key Features Offered by an Actuator:
+#Key Features Offered by an Actuator:
 
-Health check: You can use a health endpoint to check the status of your running application.
+Health check: 
+1) You can use a health endpoint to check the status of your running application.
 
-Monitoring and Management over HTTP/JMX: Actuator support HTTP endpoint as well as Java Management Extensions (JMX) to provide a standard mechanism to monitor and manage applications.
+2) Monitoring and Management over HTTP/JMX: Actuator support HTTP endpoint as well as Java Management Extensions (JMX) to provide a standard mechanism to monitor and manage applications.
 
-Logger: It provides a feature to view and update the logs level.
+#Logger: 
+It provides a feature to view and update the logs level.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -55,12 +57,12 @@ JPA is not a framework.
 It defines a concept that can be implemented by any framework.
 
 
-JPA Implementations
-JPA is an open-source API. 
-There is various enterprises vendor such as Eclipse, RedHat, Oracle, etc. 
-that provides new products by adding the JPA in them. 
-There are some popular JPA implementations frameworks such as Hibernate, EclipseLink, DataNucleus, etc. 
-It is also known as Object-Relation Mapping (ORM) tool.
+#JPA Implementations
+1) JPA is an open-source API. 
+2) There is various enterprises vendor such as Eclipse, RedHat, Oracle, etc. 
+3) that provides new products by adding the JPA in them. 
+4) There are some popular JPA implementations frameworks such as Hibernate, EclipseLink, DataNucleus, etc. 
+5) It is also known as Object-Relation Mapping (ORM) tool.
 
 
 
