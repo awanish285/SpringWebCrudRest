@@ -50,11 +50,11 @@ It provides a feature to view and update the logs level.
 
 #In the context of persistence, it covers three areas:
 
-The Java Persistence API
-Object-Relational metadata
-The API itself, defined in the persistence package
-JPA is not a framework. 
-It defines a concept that can be implemented by any framework.
+1) The Java Persistence API
+2) Object-Relational metadata
+3) The API itself, defined in the persistence package
+4) JPA is not a framework. 
+5) It defines a concept that can be implemented by any framework.
 
 
 #JPA Implementations
