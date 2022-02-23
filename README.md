@@ -123,13 +123,13 @@ ORM stands for Object-Relational Mapping (ORM) is a programming technique for co
 
 #Advantages:
 
-1	Let’s business code access objects rather than DB tables.
-2	Hides details of SQL queries from OO logic.
-3	Based on JDBC 'under the hood.'
-4	No need to deal with the database implementation.
-5	Entities based on business concepts rather than database structure.
-6	Transaction management and automatic key generation.
-7	Fast development of application.
+1) Let’s business code access objects rather than DB tables.
+2) Hides details of SQL queries from OO logic.
+3) Based on JDBC 'under the hood.'
+4) No need to deal with the database implementation.
+5) Entities based on business concepts rather than database structure.
+6) Transaction management and automatic key generation.
+7) Fast development of application.
 
 
 #Java ORM Frameworks
