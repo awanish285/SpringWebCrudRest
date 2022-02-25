@@ -82,7 +82,7 @@ There are following features of JPA:
 1) JPA is a Java specification that is used to access, manage, and persist data between Java object and relational database. 
 2) It is a standard approach for ORM.
 
-Hibernate: 
+#Hibernate: 
 1) It is a lightweight, open-source ORM tool that is used to store Java objects in the relational database system. 
 2) It is a provider of JPA. It follows a common approach provided by JPA.
 
@@ -143,21 +143,7 @@ There are several persistent frameworks and ORM options in Java. A persistent fr
 6) Hibernate
 7) And many more
 ======================================================================================================================================================================================================
-#Tech
-java,spring-data-jpa,RestTemplate,junitTest
 
-#database
-Mysql
-
-#Tools
-sts,PostMan
-
-
-#ProjectManageemnttool
-Maven
-
-#Version Control
-Git
 
 ===================================================================================================================================================
 
@@ -204,3 +190,20 @@ Git
 6) It takes more time to achieve the same.
 
 ============================================================================================================================================================================
+#Tech
+java,spring-data-jpa,RestTemplate,junitTest
+
+#database
+Mysql
+
+#Tools
+sts,PostMan
+
+
+#ProjectManageemnttool
+Maven
+
+#Version Control
+Git
+
+==============================================================================================================================================================
