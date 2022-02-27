@@ -25,6 +25,7 @@ We make properties files for each environment and set the profile in the applica
 2) we need to add the Spring Boot Starter actuator dependency in our build configuration file.
 3) Maven users can add the below dependency in your pom.xml file.
 
+#Dependency
 <dependency>
    <groupId>org.springframework.boot</groupId>
    <artifactId>spring-boot-starter-actuator</artifactId>
@@ -118,7 +119,7 @@ JDBC provides a flexible architecture to write a database independent applicatio
 5) Query is DBMS specific
 
 =====================================================================================================================================================================================================================================
-What is ORM?
+#What is ORM?
 ORM stands for Object-Relational Mapping (ORM) is a programming technique for converting data between relational databases and object oriented programming languages such as Java, C#, etc.
 
 #Advantages:
@@ -149,7 +150,7 @@ There are several persistent frameworks and ORM options in Java. A persistent fr
 
 # Spring Vs Spring Boot
 
-
+# Spring
 1) Spring Framework is a widely used Java EE framework for building applications.	
 2) It aims to simplify Java EE development that makes developers more productive.	
 3) The primary feature of the Spring Framework is dependency injection.	
@@ -159,7 +160,7 @@ There are several persistent frameworks and ORM options in Java. A persistent fr
 7) It does not provide support for an in-memory database.	
 8) Developers manually define dependencies for the Spring project in pom.xml.	
 
-
+# Spring Boot
 1) Spring Boot Framework is widely used to develop REST APIs.
 2) It aims to shorten the code length and provide the easiest way to develop Web Applications.
 3) The primary feature of Spring Boot is Autoconfiguration. It automatically configures the classes based on the requirement.
