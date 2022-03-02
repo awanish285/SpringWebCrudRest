@@ -34,7 +34,7 @@ We make properties files for each environment and set the profile in the applica
 
 #Key Features Offered by an Actuator:
 
-Health check: 
+#Health check: 
 1) You can use a health endpoint to check the status of your running application.
 
 2) Monitoring and Management over HTTP/JMX: Actuator support HTTP endpoint as well as Java Management Extensions (JMX) to provide a standard mechanism to monitor and manage applications.
@@ -68,7 +68,8 @@ It provides a feature to view and update the logs level.
 
 
 #JPA Features
-There are following features of JPA:
+
+#There are following features of JPA:
 
 1) It is a powerful repository and custom object-mapping abstraction.
 2) It dynamically generates queries from queries methods name.
