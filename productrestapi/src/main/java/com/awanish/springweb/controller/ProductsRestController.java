@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.awanish.springweb.entites.Products;
 import com.awanish.springweb.repositery.ProductsRepo;
 
+//Controller 
 @RestController
 public class ProductsRestController {
 	
